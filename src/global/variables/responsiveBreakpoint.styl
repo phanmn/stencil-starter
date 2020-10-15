@@ -1,0 +1,11 @@
+computerBreakpoint = 992px
+extraLargeComputerBreakpoint = 1200px
+extraExtraLargeComputerBreakpoint = 1330px
+tabletBreakpoint = 640px
+
+extraExtraLargeComputer = 'only screen and (min-width: ' + extraExtraLargeComputerBreakpoint + ')'
+extraLargeComputer = 'only screen and (min-width: ' + extraLargeComputerBreakpoint + ')'
+computer = 'only screen and (min-width: ' + computerBreakpoint + ')'
+tablet = 'only screen and (max-width: ((' + (computerBreakpoint - 1px) + '))) and (min-width: ' + tabletBreakpoint + ')'
+computerAndTablet = 'only screen and (min-width: ' + tabletBreakpoint + ')'
+mobile = 'only screen and (max-width: ((' + (640 - 1px) + ')))'
